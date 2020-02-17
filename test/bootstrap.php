@@ -2,7 +2,7 @@
 
 namespace PhpParser;
 
-require __DIR__ . '/../vendor/autoload.php';
+//require __DIR__ . '/../vendor/autoload.php';
 
 function canonicalize($str) {
     // normalize EOL style
