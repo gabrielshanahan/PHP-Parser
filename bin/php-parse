@@ -1,12 +1,14 @@
 #!/usr/bin/env php
 <?php
 
-foreach ([__DIR__ . '/../../../autoload.php', __DIR__ . '/../vendor/autoload.php'] as $file) {
-    if (file_exists($file)) {
-        require $file;
-        break;
-    }
-}
+//foreach ([__DIR__ . '/../../../autoload.php', __DIR__ . '/../vendor/autoload.php'] as $file) {
+//    if (file_exists($file)) {
+//        require $file;
+//        break;
+//    }
+//}
+
+require("/home/docker/sugardocker/data/app/sugar/vendor/autoload.php");
 
 ini_set('xdebug.max_nesting_level', 3000);
 
