@@ -12,10 +12,15 @@ function() use($a) : \Foo\Bar {};
 array(
     0: Stmt_Expression(
         expr: Expr_Closure(
+            attrGroups: array(
+            )
             static: false
             byRef: false
             params: array(
                 0: Param(
+                    attrGroups: array(
+                    )
+                    flags: 0
                     type: null
                     byRef: false
                     variadic: false
@@ -39,10 +44,15 @@ array(
     )
     1: Stmt_Expression(
         expr: Expr_Closure(
+            attrGroups: array(
+            )
             static: false
             byRef: false
             params: array(
                 0: Param(
+                    attrGroups: array(
+                    )
+                    flags: 0
                     type: null
                     byRef: false
                     variadic: false
@@ -67,6 +77,8 @@ array(
     )
     2: Stmt_Expression(
         expr: Expr_Closure(
+            attrGroups: array(
+            )
             static: false
             byRef: false
             params: array(
@@ -92,10 +104,15 @@ array(
     )
     3: Stmt_Expression(
         expr: Expr_Closure(
+            attrGroups: array(
+            )
             static: false
             byRef: true
             params: array(
                 0: Param(
+                    attrGroups: array(
+                    )
+                    flags: 0
                     type: null
                     byRef: false
                     variadic: false
@@ -114,6 +131,8 @@ array(
     )
     4: Stmt_Expression(
         expr: Expr_Closure(
+            attrGroups: array(
+            )
             static: true
             byRef: false
             params: array(
@@ -127,10 +146,15 @@ array(
     )
     5: Stmt_Expression(
         expr: Expr_Closure(
+            attrGroups: array(
+            )
             static: false
             byRef: false
             params: array(
                 0: Param(
+                    attrGroups: array(
+                    )
+                    flags: 0
                     type: null
                     byRef: false
                     variadic: false
@@ -151,6 +175,8 @@ array(
     )
     6: Stmt_Expression(
         expr: Expr_Closure(
+            attrGroups: array(
+            )
             static: false
             byRef: false
             params: array(
